@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>University Admission Form</title>
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+            color: #222;
+        }
+
+        h1 {
+            text-align: center;
+            text-transform: uppercase;
+            text-decoration: underline;
+            letter-spacing: 2px;
+        }
+
+        form, table, .media, pre {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        input, select, textarea {
+            margin: 8px;
+            padding: 7px;
+        }
+
+        table {
+            border-collapse: collapse;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+
+        th {
+            background-color: lightblue;
+        }
+
+        iframe, video, audio {
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        pre {
+            background: #ddd;
+            padding: 15px;
+            overflow: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>University Admission Form</h1>
+
+<form>
+
+    <h2>Personal Information</h2>
+
+    Name:
+    <input type="text" name="name"><br>
+
+    Password:
+    <input type="password" name="password"><br>
+
+    Date of Birth:
+    <input type="date" name="dob"><br>
+
+    Gender:
+    <input type="radio" name="gender"> Male
+    <input type="radio" name="gender"> Female<br>
+
+
+    <h2>Contact Information</h2>
+
+    Email:
+    <input type="email" name="email"><br>
+
+    Phone:
+    <input type="tel" name="phone"><br>
+
+    City:
+    <select>
+        <option>Peshawar</option>
+        <option>Islamabad</option>
+        <option>Lahore</option>
+        <option>Karachi</option>
+    </select><br>
+
+    Address:
+    <textarea rows="3"></textarea><br>
+
+
+    <h2>Academic Information</h2>
+
+    Previous Marks:
+    <input type="number" name="marks"><br>
+
+    Preferred Program:
+    <select>
+        <option>Computer Science</option>
+        <option>Software Engineering</option>
+        <option>Artificial Intelligence</option>
+        <option>Data Science</option>
+    </select><br>
+
+
+    <h2>Interests / Skills</h2>
+
+    <input type="checkbox"> Python
+    <input type="checkbox"> Web Development
+    <input type="checkbox"> AI
+    <input type="checkbox"> Database<br>
+
+
+    <h2>Profile Picture</h2>
+
+    <input type="file" accept="image/*"><br>
+
+
+    <h2>Why do you want to join?</h2>
+
+    <textarea rows="4" cols="40"></textarea><br>
+
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+
+</form>
+
+
+<h2 align="center">Student Information</h2>
+
+<table>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+        <th>Email</th>
+        <th>Department</th>
+    </tr>
+
+    <tr>
+        <td>Ali</td>
+        <td>Khan</td>
+        <td>ali@gmail.com</td>
+        <td>CS</td>
+    </tr>
+
+    <tr>
+        <td>Ahmed</td>
+        <td>Shah</td>
+        <td>ahmed@gmail.com</td>
+        <td>SE</td>
+    </tr>
+
+    <tr>
+        <td>Usman</td>
+        <td>Ali</td>
+        <td>usman@gmail.com</td>
+        <td>AI</td>
+    </tr>
+
+    <tr>
+        <td>Hamza</td>
+        <td>Malik</td>
+        <td>hamza@gmail.com</td>
+        <td>IT</td>
+    </tr>
+
+    <tr>
+        <td>Bilal</td>
+        <td>Ahmad</td>
+        <td>bilal@gmail.com</td>
+        <td>DS</td>
+    </tr>
+</table>
+
+
+<div class="media">
+
+    <h2>University Information</h2>
+
+    <iframe src="https://www.wikipedia.org/"></iframe>
+
+    <video controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+
+</div>
+
+
+<h2 align="center">Complete HTML Code</h2>
+
+<pre><code>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;University Admission Form&lt;/title&gt;
+    &lt;style&gt;
+        body {
+            font-family: Arial;
+            background-color: #f2f2f2;
+        }
+        h1 {
+            text-align: center;
+            text-decoration: underline;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;University Admission Form&lt;/h1&gt;
+    &lt;form&gt;
+        Name: &lt;input type="text"&gt;
+        Password: &lt;input type="password"&gt;
+        Email: &lt;input type="email"&gt;
+        &lt;input type="submit"&gt;
+        &lt;input type="reset"&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+
+</body>
+</html>
